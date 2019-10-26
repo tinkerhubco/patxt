@@ -4,9 +4,11 @@
     "lerna": "^3.18.3"
   },
   "scripts": {
+    "lerna:add": "lerna add",
     "lerna:bootstrap": "lerna bootstrap",
     "lerna:create": "lerna create",
     "lerna:run": "lerna run --stream",
-    "start:api": "lerna run start --stream --scope @patxt/api"
+    "api:start": "lerna run start --stream --scope @patxt/api",
+    "api:start:dev": "lerna run start:dev --stream --scope @patxt/api"
   }
 }
