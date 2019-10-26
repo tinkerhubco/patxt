@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.18.3"
+  },
+  "scripts": {
+    "lerna:bootstrap": "lerna bootstrap",
+    "lerna:create": "lerna create",
+    "lerna:run": "lerna run --stream",
+    "start:api": "lerna run start --stream --scope @patxt/api"
+  }
+}
