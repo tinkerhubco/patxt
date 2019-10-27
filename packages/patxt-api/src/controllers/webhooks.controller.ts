@@ -30,7 +30,7 @@ export class WebhooksController {
       },
     },
   })
-  async optInRedirectUriWebhook(
+  async redirectUriOptInWebhook(
     @param.query.string('access_token') accessCode: string,
     @param.query.string('subscriber_number') subscriberNumber: string,
   ) {
